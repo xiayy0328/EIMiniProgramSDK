@@ -1,7 +1,13 @@
 PODS:
   - EIMiniProgramSDK (1.0.0):
     - EIMiniProgramSDK/Core (= 1.0.0)
-  - EIMiniProgramSDK/Core (1.0.0)
+  - EIMiniProgramSDK/Core (1.0.0):
+    - EIMiniProgramSDK/Core/Headers (= 1.0.0)
+    - EIMiniProgramSDK/Core/Libs (= 1.0.0)
+  - EIMiniProgramSDK/Core/Headers (1.0.0):
+    - EIMiniProgramSDK/Core/Headers/weexHeader (= 1.0.0)
+  - EIMiniProgramSDK/Core/Headers/weexHeader (1.0.0)
+  - EIMiniProgramSDK/Core/Libs (1.0.0)
 
 DEPENDENCIES:
   - EIMiniProgramSDK (from `../`)
@@ -11,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EIMiniProgramSDK: 8f3890ff1f9a7931affec3f347068d8fb331468d
+  EIMiniProgramSDK: ae17400ae00b364e7315927098ab049cc6f29859
 
 PODFILE CHECKSUM: 34d73e8e90bb31e5f6fef7873531a68e1618e12e
 

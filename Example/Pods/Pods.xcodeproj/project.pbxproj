@@ -28,142 +28,140 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71F95BDD2CA942B37089593698D449FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D742DA5CC97EFCBD552BFE0B44889A9E;
-			remoteInfo = EIMiniProgramSDK;
-		};
-		9D893EDD079B9AEBAF3EA99FFEC16398 /* PBXContainerItemProxy */ = {
+		8541B3B7AC46DAF3F931E9072E3FC6AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 236CDB966C8FBBEFA7C8116D6FCDB5AA;
 			remoteInfo = "Pods-EIMiniProgramSDK_Example";
 		};
+		F1979207EC3A764030FD094B0A1542D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D742DA5CC97EFCBD552BFE0B44889A9E;
+			remoteInfo = EIMiniProgramSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001778E10FA60E433394C31D49FAD031 /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
-		00F832095E9E3A92046A30665A245457 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		0163D319C29517AABB687C833E362EBB /* EIMiniProgramSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EIMiniProgramSDK.release.xcconfig; sourceTree = "<group>"; };
 		018B2864668425E45F2032DEE5775533 /* Pods-EIMiniProgramSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EIMiniProgramSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0248DA9D758D198923E7F3FE332D1440 /* WXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
-		057AECF1109B35E7301BFC37677752BF /* DCUniMPInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPInstance.h; sourceTree = "<group>"; };
-		061F9AD48E53D243F50F5B2F0B54D4D9 /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		026A433CE5117F1F42E0FF1D41092161 /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXPageEventNotifyEvent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
+		034936225DC5828B7C7776B7109BF0EC /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WXSDKInstance+Bridge.h"; path = "EIMiniProgramSDK/Core/Headers/weexHeader/WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
+		05CAEFB9D50AA3987F33CAC2CFB611F6 /* WXScrollerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXScrollerComponent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXScrollerComponent.h; sourceTree = "<group>"; };
+		08BAC0332AEFA88AD7D3A893B6C9CDE3 /* DCUniMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMP.h; path = EIMiniProgramSDK/Core/Headers/DCUniMP.h; sourceTree = "<group>"; };
+		0A498514513B94713185E343230C4A93 /* DCUniMPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPError.h; path = EIMiniProgramSDK/Core/Headers/DCUniMPError.h; sourceTree = "<group>"; };
 		0DB34678E3A7DF23D9972AA041862278 /* Pods-EIMiniProgramSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EIMiniProgramSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		19BB38D49F79A867011BD516A304D0F5 /* EIMiniProgramSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EIMiniProgramSDK.debug.xcconfig; sourceTree = "<group>"; };
-		19F82889EA96B3AECE43931A88981DB8 /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
-		1A39614695A641158403CCE089651973 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1C40FD99DCCCCBB2FCAD1CF7AF631B30 /* WeexProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexProtocol.h; sourceTree = "<group>"; };
-		1DF69D0442F9D3532170C8D7AD413EF0 /* storage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = storage.h; sourceTree = "<group>"; };
-		1EA127F348EA30BF7DA1A1A7686F43A4 /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
-		215D11D58F06F4585DFCFCF0913C67DB /* WXAComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
-		223A6E380D4C106BA1D47150038B85A7 /* liblibStorage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibStorage.a; path = EIMiniProgramSDK/Core/Libs/liblibStorage.a; sourceTree = "<group>"; };
-		23BBF077D63AA9031827F60E0D86C654 /* liblibNativeUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = EIMiniProgramSDK/Core/Libs/liblibNativeUI.a; sourceTree = "<group>"; };
-		24DBF4E5F12255DE105E53BBC9E828A9 /* WXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		18EF437A3D2A74E4A075B30E66EB2E83 /* DCUniMPInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPInstance.h; path = EIMiniProgramSDK/Core/Headers/DCUniMPInstance.h; sourceTree = "<group>"; };
+		199B428FB0A81198A5DBF2A686CBF984 /* liblibStorage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibStorage.a; path = EIMiniProgramSDK/Core/Libs/liblibStorage.a; sourceTree = "<group>"; };
+		1AC1AB248171F1DD2C4ECA67002C3E88 /* liblibUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibUI.a; path = EIMiniProgramSDK/Core/Libs/liblibUI.a; sourceTree = "<group>"; };
+		1C92DEC8B5EA8DD3C74CA08A0E888D2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1FD37A40D05170F0E6F54B59D88ED3A5 /* WeexProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeexProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WeexProtocol.h; sourceTree = "<group>"; };
+		1FFF7A3809930A54976DF045A2C169F8 /* WXBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXBridgeManager.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXBridgeManager.h; sourceTree = "<group>"; };
+		211A50D8C3100459686ECD613E90FB91 /* WXConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXConvert.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXConvert.h; sourceTree = "<group>"; };
+		2129E66A8B91B78A02E8ADE59A3553FF /* WXResourceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceRequest.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXResourceRequest.h; sourceTree = "<group>"; };
+		2324CC819196180F89F7F3C216DEA436 /* layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = layout.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/layout.h; sourceTree = "<group>"; };
+		236F0D1BD124EDF648E2A1214154F195 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDebugTool.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXDebugTool.h; sourceTree = "<group>"; };
+		2462F286D84C100A7A0D58163EF6DA72 /* WXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXBaseViewController.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXBaseViewController.h; sourceTree = "<group>"; };
+		2808D0477AEAB3C4167C52AC066E9306 /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAnalyzerProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXAnalyzerProtocol.h; sourceTree = "<group>"; };
 		2B87DB88A04E87E2693F5425343BE05E /* Pods-EIMiniProgramSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EIMiniProgramSDK_Tests"; path = Pods_EIMiniProgramSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C13E4187A12A4CAB2FDE67B76E077D1 /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
-		2EB4244351E6465A4DD3D98E8EEB8DDA /* WXResourceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
-		307781D2AB00F2806C54F5C2D07B5FAE /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
-		3297D59989307CBFB8CD59616ADAC3D9 /* WXTracingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
-		369109C6D2220C467CC931AAFDFA6488 /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
-		387276E7507C1CCA93753F38FFA32BC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		39EAA1790AAFE2EA593D8C2B116E5874 /* style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
-		3C618C8D5E885A6E076DC2367F857558 /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPSDKEngine.h; sourceTree = "<group>"; };
-		3E1E757AC7F3CAEB67093BD324424DB5 /* WXExceptionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExceptionUtils.h; sourceTree = "<group>"; };
-		44476AAD3A67F18D22DC3EB25476627A /* WXApmProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmProtocol.h; sourceTree = "<group>"; };
-		457F0AC3B25FD40E260CBFCBDF72231E /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDisplayLinkManager.h; sourceTree = "<group>"; };
-		4812FBD9378812D13B18B36B1ABF7E60 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
-		48B61BC3C62F1D96F7C8AE913028A44B /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
-		49EB7FD23ED9CDA27BB5C1A378756925 /* StorageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
-		4AF2586F7138AB31F69FD147BF29A72B /* liblibUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibUI.a; path = EIMiniProgramSDK/Core/Libs/liblibUI.a; sourceTree = "<group>"; };
-		4C4F28616EA576390973B6845CF23A57 /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PandoraApi.bundle; path = EIMiniProgramSDK/Core/Resources/PandoraApi.bundle; sourceTree = "<group>"; };
-		4ED8931EABEE1E71B775271F0A53E8CE /* unincomponents.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = unincomponents.ttf; path = EIMiniProgramSDK/Core/Resources/unincomponents.ttf; sourceTree = "<group>"; };
-		51013DCD7E36F53BEA7D46CDBBB81D95 /* WXListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
-		530B85E27A2963088C56B4612E824E3A /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		2E198E53C8276C7D0E52891CDDADEE1A /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXErrorView.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXErrorView.h; sourceTree = "<group>"; };
+		2EBFDEA1E2E129451AD99DE9AD532448 /* __uniappes6.js */ = {isa = PBXFileReference; includeInIndex = 1; name = __uniappes6.js; path = EIMiniProgramSDK/Core/Resources/__uniappes6.js; sourceTree = "<group>"; };
+		2F4F9E5C0935432A068258EC89D5D886 /* WXListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXListComponent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXListComponent.h; sourceTree = "<group>"; };
+		3137D43D1F4120F68C6D4A65B2788FCB /* WXModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXModuleProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXModuleProtocol.h; sourceTree = "<group>"; };
+		334DA3AE8892B6E7F9AE9DEF6DC7753D /* EIMiniProgramSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EIMiniProgramSDK.debug.xcconfig; sourceTree = "<group>"; };
+		34410E493BB89918F334DD8D67DEE283 /* liblibIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibIO.a; path = EIMiniProgramSDK/Core/Libs/liblibIO.a; sourceTree = "<group>"; };
+		3845B060DDE1FB41A976E7A9900103D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		384C5EF9EF64AE9C71B7F370CB996481 /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRootView.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXRootView.h; sourceTree = "<group>"; };
+		3D47C5BBD9BAE5D3099266E589478687 /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceRequestHandler.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		3F526E79D9C38F187EB6CF0D0005CD6A /* uni-jsframework.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework.js"; path = "EIMiniProgramSDK/Core/Resources/uni-jsframework.js"; sourceTree = "<group>"; };
+		41C9E65D98004B9F18DEB6FDA8119CB4 /* WXComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXComponent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXComponent.h; sourceTree = "<group>"; };
+		48DA63594D09A3338594F578B9B53340 /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXExtendCallNativeProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		4B21374EDC4ED7876A3CC0D590A52ACD /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAnalyzerCenter.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXAnalyzerCenter.h; sourceTree = "<group>"; };
+		4C0BC022DE68013213F54F64E432879D /* WXResourceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceResponse.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXResourceResponse.h; sourceTree = "<group>"; };
+		55AA5B0076EDC474EDD06C93933DB7DA /* WXTracingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXTracingManager.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXTracingManager.h; sourceTree = "<group>"; };
+		55EADF28AE9EE7DEF5460F5166182AA9 /* WXValidateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXValidateProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXValidateProtocol.h; sourceTree = "<group>"; };
 		5710BB4D61AEA41DFECD00342C6789B4 /* Pods-EIMiniProgramSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EIMiniProgramSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		58CE760639B8F7EF625A482827866115 /* WXVoiceOverModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
-		59EFDC8D03154C650E0A1A246E27A57C /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
-		5BBB9F70ABB4EB0E3F05F17FEF301BAD /* liblibNativeObj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = EIMiniProgramSDK/Core/Libs/liblibNativeObj.a; sourceTree = "<group>"; };
+		5C570638EFD0F7CB1B8019AA752EC4EE /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAppConfiguration.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXAppConfiguration.h; sourceTree = "<group>"; };
 		5E29DAB63AE82660D2EEA8DD8F9704A1 /* Pods-EIMiniProgramSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EIMiniProgramSDK_Example"; path = Pods_EIMiniProgramSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63D2BAA6DA1CFA0BD2E724627CE5F970 /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
-		64D18FB7E039285867D8884CCA59A0DC /* liblibWeex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibWeex.a; path = EIMiniProgramSDK/Core/Libs/liblibWeex.a; sourceTree = "<group>"; };
-		6582F20F39D630476338382FD44A8009 /* liblibPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = EIMiniProgramSDK/Core/Libs/liblibPDRCore.a; sourceTree = "<group>"; };
-		65BCE0EF19879BDE83AD1C517ECB9C91 /* DCUniMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMP.h; sourceTree = "<group>"; };
+		6083052F8E8B0B835D26F57803379DEB /* WXNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXNavigationProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXNavigationProtocol.h; sourceTree = "<group>"; };
+		61C06250866B3728DE93DC8E97BBF340 /* WXSDKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXSDKInstance.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXSDKInstance.h; sourceTree = "<group>"; };
+		6406FB92628973AAA6E51F7A3DC5E3FE /* WXApmProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApmProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXApmProtocol.h; sourceTree = "<group>"; };
+		648C3CAF406B5A342971825027796D8E /* WXRichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRichText.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXRichText.h; sourceTree = "<group>"; };
+		6723479C868A30EDE517F479506CE68A /* WXExceptionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXExceptionUtils.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXExceptionUtils.h; sourceTree = "<group>"; };
+		67C5313578BAA13796E813B496A3329E /* WXAComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAComponent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXAComponent.h; sourceTree = "<group>"; };
+		6BC1136F17A0415C855E55C9557FE772 /* libSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = EIMiniProgramSDK/Core/Libs/libSDWebImage.a; sourceTree = "<group>"; };
 		6D93FD9C8334D6CA7A9BFE19A3F05C3D /* Pods-EIMiniProgramSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		6EB212ACE9E0D3E15D86EA002844F640 /* WXNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
-		7294EE5E373186F8B51573641B33F7C4 /* WXModalUIModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		6FFBBCD4419789216053F061DD11C005 /* WXRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRootViewController.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXRootViewController.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7378DA286A9BAD842F6D7C62DCA73EDF /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerProtocol.h; sourceTree = "<group>"; };
-		764D20B8F68F22E14FD9FAC8D648B1B9 /* WXSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
-		76CC50581E4386BCBA8E09EF3B880F19 /* uni-jsframework.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework.js"; path = "EIMiniProgramSDK/Core/Resources/uni-jsframework.js"; sourceTree = "<group>"; };
-		79C9DB6854D78A49139A85ADCB64E121 /* WXApmForInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmForInstance.h; sourceTree = "<group>"; };
-		7A06F9F071E6AEE2E167124A4EB55BED /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
-		7B48D913A498FF029DDE21667B9974CF /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework-vue3.js"; path = "EIMiniProgramSDK/Core/Resources/uni-jsframework-vue3.js"; sourceTree = "<group>"; };
+		7854DD060A9303E0433CF379697FBD24 /* JSContext+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSContext+Weex.h"; path = "EIMiniProgramSDK/Core/Headers/weexHeader/JSContext+Weex.h"; sourceTree = "<group>"; };
+		7A0A53D901BBC367C14F6C10FD764B35 /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXURLRewriteProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		7A6A29DB7DA0E3AD23940E10E05FD651 /* WXBridgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXBridgeProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXBridgeProtocol.h; sourceTree = "<group>"; };
 		7BB5538A9E0C3BC8CCBA15FCD8B76E14 /* Pods-EIMiniProgramSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EIMiniProgramSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		7CC4E2E3684A6157F16EA424C2EEABC0 /* Pods-EIMiniProgramSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EIMiniProgramSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		81BD39D7811E1FCA9B95D20E0F30E9F8 /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = EIMiniProgramSDK/Core/Libs/storage.framework; sourceTree = "<group>"; };
-		827912F36670AAEF505C2E622ED6521A /* WXIndicatorComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
-		83F93339BA59E4C083C306BF65207FAE /* WXNetworkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
-		85DDE81B45C144A79C14F6A71D05B932 /* weexUniJs.js */ = {isa = PBXFileReference; includeInIndex = 1; name = weexUniJs.js; path = EIMiniProgramSDK/Core/Resources/weexUniJs.js; sourceTree = "<group>"; };
-		8D325D5B531B6D7129A305C933B140AF /* WXConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
-		909356DE93D7211825122045FD12C126 /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
-		936E14C912166C7022831A6E070C8600 /* libSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = EIMiniProgramSDK/Core/Libs/libSDWebImage.a; sourceTree = "<group>"; };
+		7CD76BC3953FA15ABB1707CD6EBA5F70 /* WXSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXSDKEngine.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXSDKEngine.h; sourceTree = "<group>"; };
+		7E03675E4FD03FDE1AF56D4C2E50B134 /* unincomponents.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = unincomponents.ttf; path = EIMiniProgramSDK/Core/Resources/unincomponents.ttf; sourceTree = "<group>"; };
+		8200E86B83B883BAF5D74C4E85F2D603 /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDisplayLinkManager.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXDisplayLinkManager.h; sourceTree = "<group>"; };
+		84F68E8A0EC83B74ADC5AAD4A1C1BC37 /* WXRecyclerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecyclerComponent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXRecyclerComponent.h; sourceTree = "<group>"; };
+		85A0839366F8431B74CB6ED89E970647 /* WXTracingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXTracingProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXTracingProtocol.h; sourceTree = "<group>"; };
+		87634A403A11757E6B1528E123B3C8FB /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceLoader.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXResourceLoader.h; sourceTree = "<group>"; };
+		88C9AD0AE4BC73703757D3749EEA234B /* WXComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXComponentManager.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXComponentManager.h; sourceTree = "<group>"; };
+		8B9916D4BEE26129307D33D9938187E4 /* WXComponent+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WXComponent+Layout.h"; path = "EIMiniProgramSDK/Core/Headers/weexHeader/WXComponent+Layout.h"; sourceTree = "<group>"; };
+		8BAB6FE5269212841D6F19D0047AAA57 /* WXSDKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXSDKError.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXSDKError.h; sourceTree = "<group>"; };
+		8E735AC0AF79F56DFB7AF1BFAC23C39B /* liblibWeex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibWeex.a; path = EIMiniProgramSDK/Core/Libs/liblibWeex.a; sourceTree = "<group>"; };
+		92439F4A2E656B26805AD21BD7A528E7 /* WXApmForInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApmForInstance.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXApmForInstance.h; sourceTree = "<group>"; };
+		93A53BF8D9E6DEAFBF713A6B51710423 /* UniPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UniPluginProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/UniPluginProtocol.h; sourceTree = "<group>"; };
+		944481FE5D5A0470D28BD52D15D72EF3 /* liblibNativeUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = EIMiniProgramSDK/Core/Libs/liblibNativeUI.a; sourceTree = "<group>"; };
 		95CEAD97BAB0AC9E86A8521BB8F9DC6B /* Pods-EIMiniProgramSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EIMiniProgramSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		9614C0CD96AB60B26899A04009A989CD /* WXComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
-		966C534CE4A898AEE1FC81A7EB937238 /* WXComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
-		97C37C6818AD53736E83FB427EE8EE3A /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
-		983B6AAAC795AE74AB44442991CE787C /* WXBridgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
-		9A80608B0D352E080E284D66BD34C394 /* flex_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = flex_enum.h; sourceTree = "<group>"; };
-		9AC1936E64470199E240D3905D080DFB /* WXRecyclerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
-		9BE71938F95C44BA9BC9358EB1474D9E /* layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = layout.h; sourceTree = "<group>"; };
-		9D037B1C2B054FB077F679EEAFC34A99 /* WXValidateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
-		9D1559F3696EB9402F2DA84AB58284F1 /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPConfiguration.h; sourceTree = "<group>"; };
+		969242D4AA9CE818239D2CEEAB8A6A95 /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXConfigCenterProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		9D256A061C7AB720F636383D38A66971 /* WXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXView.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXView.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E3906E77B12E5A1A0FD0C1B7EB6D74A /* Pods-EIMiniProgramSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9EFD1F78EECEFB3C0544C8811815C9CA /* WXSDKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		9ED2A502C43516FE0F35CE8A413D4CCE /* WXPrerenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXPrerenderManager.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXPrerenderManager.h; sourceTree = "<group>"; };
 		A1A7E5D5E31EDE391E57C6CAC2C54174 /* Pods-EIMiniProgramSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EIMiniProgramSDK_Example.modulemap"; sourceTree = "<group>"; };
-		A2CD6383AF9A56B49A30A83BF9A21E2B /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerCenter.h; sourceTree = "<group>"; };
-		A3E9E92733935BDC865109F278700C0C /* WXSDKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
-		A8CBB08458FBF03B5E7FA34A14C6B583 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
-		A970E07C6427BFADA36338F2D57201C6 /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = EIMiniProgramSDK/Core/Libs/libcoreSupport.a; sourceTree = "<group>"; };
-		AA60841557889D08BC730908793FBC32 /* EIMiniProgramSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EIMiniProgramSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA7D306852CCDDCD1A4680B99A01034B /* WXPrerenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
-		ADE9A7D3DEF96A10512312F117C55FDB /* __uniappes6.js */ = {isa = PBXFileReference; includeInIndex = 1; name = __uniappes6.js; path = EIMiniProgramSDK/Core/Resources/__uniappes6.js; sourceTree = "<group>"; };
-		AF42E272CEB145A368885A216B04BBA1 /* WXScrollerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
-		B0CFEDBED4A8AD437E85D161EE984E1D /* WXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
-		B2779CE1591133D1B23A0076E60B4EF4 /* UniPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UniPluginProtocol.h; sourceTree = "<group>"; };
-		B313995EA323D2FBF6A9494A50571A80 /* EIMiniProgramSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EIMiniProgramSDK.release.xcconfig; sourceTree = "<group>"; };
-		B46E32D79409CAB1739C3DF2E35EF0BA /* DCUniMPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPError.h; sourceTree = "<group>"; };
-		BC64CDD358E2A6989812A294255DF129 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		A1CC3A55D03E274B38A7AF16570186AE /* flex_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = flex_enum.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/flex_enum.h; sourceTree = "<group>"; };
+		A6664C3842830CD7094146562B1C9BFD /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXJSExceptionInfo.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		AA2421755F8B7F0978851CA8740D9FFC /* WXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXType.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXType.h; sourceTree = "<group>"; };
+		AF7983934323BC779D30A3D33F8146C9 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXEventModuleProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		AFF7BF6D34281114A0BE314BF8F0539D /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAppMonitorProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		B32DCF62ACE9AD13D1C724FE357D46BC /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = EIMiniProgramSDK/Core/Libs/libcoreSupport.a; sourceTree = "<group>"; };
+		B57E0780E1A59D80C344AF3F2FCC68B0 /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+WXSwizzle.h"; path = "EIMiniProgramSDK/Core/Headers/weexHeader/NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		B79EE89607918713DCD09000D786FE06 /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPSDKEngine.h; path = EIMiniProgramSDK/Core/Headers/DCUniMPSDKEngine.h; sourceTree = "<group>"; };
+		B89D8D0623B80C2DB6BBDA3340B175C3 /* WXScrollerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXScrollerProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXScrollerProtocol.h; sourceTree = "<group>"; };
+		BAAC126030872D8BA8723A66795E9F9D /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPMenuActionSheetStyle.h; path = EIMiniProgramSDK/Core/Headers/DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
+		BD6133FF77BD2FA440B4B2D64326A2A6 /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PandoraApi.bundle; path = EIMiniProgramSDK/Core/Resources/PandoraApi.bundle; sourceTree = "<group>"; };
 		BE0EC9692792E03CB007C89E8C5E73FB /* Pods-EIMiniProgramSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C35DB0B5FC629D59FE86C64F310FFCD2 /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
-		C5F76AB0DF79E404F36188C855CC5536 /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
-		C78D50EA81697148DDDA06CFD84FBF31 /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		BE6847298E02833E7821879E789F28FF /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDefine.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXDefine.h; sourceTree = "<group>"; };
+		BFBDBA234D3448A8B0D4BDAA1A8B3EBE /* WXNetworkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXNetworkProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXNetworkProtocol.h; sourceTree = "<group>"; };
+		C3505E34CCF99601DCD4C0CF17A70AEC /* EIMiniProgramSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EIMiniProgramSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C425FE3FE095EB0272C48B21D9FAB529 /* liblibNativeObj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = EIMiniProgramSDK/Core/Libs/liblibNativeObj.a; sourceTree = "<group>"; };
+		C93CD542BDE03880EB17995D67B37DD0 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXWebSocketHandler.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXWebSocketHandler.h; sourceTree = "<group>"; };
 		CA4ADACE8354B375DC4A0365BA15869D /* Pods-EIMiniProgramSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		CB55C03AB38014A5AB9ED012E6296A1A /* liblibIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibIO.a; path = EIMiniProgramSDK/Core/Libs/liblibIO.a; sourceTree = "<group>"; };
-		D169C26DF71F13C8B7CB8C0C55F311C5 /* WXResourceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
-		D4ADCCB193600BBBBB87CE01015A6A56 /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
-		D6EEB4E43A9914B2D717AA2C546983B4 /* WXScrollerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		CA7B2CB7D32EF08CB4A62360BC90A3B4 /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMonitor.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXMonitor.h; sourceTree = "<group>"; };
+		CF53D2418314C1410F77BA14EFBA53F6 /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeexSDK.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WeexSDK.h; sourceTree = "<group>"; };
+		D039D07EE25DF90CF599A0AF7C4EBF6D /* WXIndicatorComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXIndicatorComponent.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXIndicatorComponent.h; sourceTree = "<group>"; };
+		D16E1408E94728914890DB9C4BAFDBFA /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXUtility.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXUtility.h; sourceTree = "<group>"; };
+		D4A22801E03577B598B624BEB04A868D /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXJSFrameworkLoadProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
+		D4DB49CC8955FB857E5D70C0B05135D2 /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXJSExceptionProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXJSExceptionProtocol.h; sourceTree = "<group>"; };
 		D7D9ACBC337E43D0239C3337869104C5 /* Pods-EIMiniProgramSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D863D5802546A7F744CBFE0346886406 /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
-		D89E740BE943311E9E1FF91EB221AAA6 /* weex-polyfill.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "weex-polyfill.js"; path = "EIMiniProgramSDK/Core/Resources/weex-polyfill.js"; sourceTree = "<group>"; };
-		DD21FB8D1EE3C69E47C93C1D96FA40F7 /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		D854C9BA827EC149F74FE60FD0A430A1 /* weex-polyfill.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "weex-polyfill.js"; path = "EIMiniProgramSDK/Core/Resources/weex-polyfill.js"; sourceTree = "<group>"; };
+		DF53313A40BB93C64A955F94BD13D950 /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCUniMPConfiguration.h; path = EIMiniProgramSDK/Core/Headers/DCUniMPConfiguration.h; sourceTree = "<group>"; };
 		DF6A8EEFF3C3CADA88D52A7AB8A59FE3 /* Pods-EIMiniProgramSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E232F2B9BD2C77277F8B1722D04DA857 /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
-		E2EEF80E44725017F149DD6EB841F9BD /* WXComponent+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
-		E6C04C3EDA9B6E0378561263A95D13F0 /* liblibNavigator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = EIMiniProgramSDK/Core/Libs/liblibNavigator.a; sourceTree = "<group>"; };
+		E64838F7D9E0638E84DC7F112A01916C /* WXModalUIModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXModalUIModule.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXModalUIModule.h; sourceTree = "<group>"; };
+		E8F79638AB70ED5F71045EA6D648BF62 /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WXSDKInstance+DCExtend.h"; path = "EIMiniProgramSDK/Core/Headers/weexHeader/WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
+		EB1D573A5E56AA1202C288C7A4306774 /* liblibPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = EIMiniProgramSDK/Core/Libs/liblibPDRCore.a; sourceTree = "<group>"; };
+		EE2F0882C94C063C2133CD12B5F44206 /* liblibNavigator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = EIMiniProgramSDK/Core/Libs/liblibNavigator.a; sourceTree = "<group>"; };
 		F06B2C13ECA9D6F5B20A4A6F638E289B /* Pods-EIMiniProgramSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EIMiniProgramSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		F19EC8A0FFD7F37F524CFA82A503AD63 /* WXBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
-		F2BEB6BF3235ACBEECCE11E7E11C39A7 /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
-		F5DDA8F180135F518D493075EF9BC95A /* WXRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
-		F63096A5C8A9C7782944A3CE0BBC2C24 /* WXTracingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
-		F99BB59F2D8CAD3EE5E7E01F175F26CA /* WXRichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRichText.h; sourceTree = "<group>"; };
+		F4FD1D9D78D3F32A492F2A2B509D4EFC /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXSDKManager.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXSDKManager.h; sourceTree = "<group>"; };
+		F68BC0EA04836927579DFA18EB4AD621 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXImgLoaderProtocol.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		F6A0AAD9F96E53B439FF7CC907912AD6 /* weexUniJs.js */ = {isa = PBXFileReference; includeInIndex = 1; name = weexUniJs.js; path = EIMiniProgramSDK/Core/Resources/weexUniJs.js; sourceTree = "<group>"; };
 		FACF438FA4E96436FF8FE718332FB6B9 /* Pods-EIMiniProgramSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FCE541B014FF8F1CFF1C9A74BA1D06C8 /* JSContext+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSContext+Weex.h"; sourceTree = "<group>"; };
-		FD2C5FA5AA700ED3CEB22C152DB5AD1B /* WXModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		FC48DEFFDB10ED3363B73778A9FD32CE /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = EIMiniProgramSDK/Core/Libs/storage.framework; sourceTree = "<group>"; };
+		FCF46571C9FFEA65450C6433CF23C68A /* WXVoiceOverModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXVoiceOverModule.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/WXVoiceOverModule.h; sourceTree = "<group>"; };
+		FE62A820EC508705C08A5A1DBB83DCA8 /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework-vue3.js"; path = "EIMiniProgramSDK/Core/Resources/uni-jsframework-vue3.js"; sourceTree = "<group>"; };
 		FE98D25FB608FF97ED3D2A94832024F9 /* Pods-EIMiniProgramSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EIMiniProgramSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFA6FC99977C5A9DA253ADB5E2D2FFBB /* style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = style.h; path = EIMiniProgramSDK/Core/Headers/weexHeader/style.h; sourceTree = "<group>"; };
 		FFBC0BE3A15E90571E913B1655A345F7 /* Pods-EIMiniProgramSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,90 +194,104 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3836FF1771D6A76CE4FD31C04F571798 /* Pod */ = {
+		338B88CE464DB3DE93CD8344944568B8 /* weexHeader */ = {
 			isa = PBXGroup;
 			children = (
-				AA60841557889D08BC730908793FBC32 /* EIMiniProgramSDK.podspec */,
-				387276E7507C1CCA93753F38FFA32BC2 /* LICENSE */,
-				1A39614695A641158403CCE089651973 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3B11A1F52B5FE79E8842BD4EE08A494B /* weexHeader */ = {
-			isa = PBXGroup;
-			children = (
-				9A80608B0D352E080E284D66BD34C394 /* flex_enum.h */,
-				FCE541B014FF8F1CFF1C9A74BA1D06C8 /* JSContext+Weex.h */,
-				9BE71938F95C44BA9BC9358EB1474D9E /* layout.h */,
-				001778E10FA60E433394C31D49FAD031 /* NSObject+WXSwizzle.h */,
-				39EAA1790AAFE2EA593D8C2B116E5874 /* style.h */,
-				B2779CE1591133D1B23A0076E60B4EF4 /* UniPluginProtocol.h */,
-				1C40FD99DCCCCBB2FCAD1CF7AF631B30 /* WeexProtocol.h */,
-				48B61BC3C62F1D96F7C8AE913028A44B /* WeexSDK.h */,
-				215D11D58F06F4585DFCFCF0913C67DB /* WXAComponent.h */,
-				A2CD6383AF9A56B49A30A83BF9A21E2B /* WXAnalyzerCenter.h */,
-				7378DA286A9BAD842F6D7C62DCA73EDF /* WXAnalyzerProtocol.h */,
-				79C9DB6854D78A49139A85ADCB64E121 /* WXApmForInstance.h */,
-				44476AAD3A67F18D22DC3EB25476627A /* WXApmProtocol.h */,
-				C78D50EA81697148DDDA06CFD84FBF31 /* WXAppConfiguration.h */,
-				F2BEB6BF3235ACBEECCE11E7E11C39A7 /* WXAppMonitorProtocol.h */,
-				24DBF4E5F12255DE105E53BBC9E828A9 /* WXBaseViewController.h */,
-				F19EC8A0FFD7F37F524CFA82A503AD63 /* WXBridgeManager.h */,
-				983B6AAAC795AE74AB44442991CE787C /* WXBridgeProtocol.h */,
-				9614C0CD96AB60B26899A04009A989CD /* WXComponent.h */,
-				E2EEF80E44725017F149DD6EB841F9BD /* WXComponent+Layout.h */,
-				966C534CE4A898AEE1FC81A7EB937238 /* WXComponentManager.h */,
-				1EA127F348EA30BF7DA1A1A7686F43A4 /* WXConfigCenterProtocol.h */,
-				8D325D5B531B6D7129A305C933B140AF /* WXConvert.h */,
-				BC64CDD358E2A6989812A294255DF129 /* WXDebugTool.h */,
-				530B85E27A2963088C56B4612E824E3A /* WXDefine.h */,
-				457F0AC3B25FD40E260CBFCBDF72231E /* WXDisplayLinkManager.h */,
-				63D2BAA6DA1CFA0BD2E724627CE5F970 /* WXErrorView.h */,
-				A8CBB08458FBF03B5E7FA34A14C6B583 /* WXEventModuleProtocol.h */,
-				3E1E757AC7F3CAEB67093BD324424DB5 /* WXExceptionUtils.h */,
-				061F9AD48E53D243F50F5B2F0B54D4D9 /* WXExtendCallNativeProtocol.h */,
-				00F832095E9E3A92046A30665A245457 /* WXImgLoaderProtocol.h */,
-				827912F36670AAEF505C2E622ED6521A /* WXIndicatorComponent.h */,
-				D863D5802546A7F744CBFE0346886406 /* WXJSExceptionInfo.h */,
-				369109C6D2220C467CC931AAFDFA6488 /* WXJSExceptionProtocol.h */,
-				C5F76AB0DF79E404F36188C855CC5536 /* WXJSFrameworkLoadProtocol.h */,
-				51013DCD7E36F53BEA7D46CDBBB81D95 /* WXListComponent.h */,
-				7294EE5E373186F8B51573641B33F7C4 /* WXModalUIModule.h */,
-				FD2C5FA5AA700ED3CEB22C152DB5AD1B /* WXModuleProtocol.h */,
-				7A06F9F071E6AEE2E167124A4EB55BED /* WXMonitor.h */,
-				6EB212ACE9E0D3E15D86EA002844F640 /* WXNavigationProtocol.h */,
-				83F93339BA59E4C083C306BF65207FAE /* WXNetworkProtocol.h */,
-				D4ADCCB193600BBBBB87CE01015A6A56 /* WXPageEventNotifyEvent.h */,
-				AA7D306852CCDDCD1A4680B99A01034B /* WXPrerenderManager.h */,
-				9AC1936E64470199E240D3905D080DFB /* WXRecyclerComponent.h */,
-				19F82889EA96B3AECE43931A88981DB8 /* WXResourceLoader.h */,
-				2EB4244351E6465A4DD3D98E8EEB8DDA /* WXResourceRequest.h */,
-				59EFDC8D03154C650E0A1A246E27A57C /* WXResourceRequestHandler.h */,
-				D169C26DF71F13C8B7CB8C0C55F311C5 /* WXResourceResponse.h */,
-				F99BB59F2D8CAD3EE5E7E01F175F26CA /* WXRichText.h */,
-				2C13E4187A12A4CAB2FDE67B76E077D1 /* WXRootView.h */,
-				F5DDA8F180135F518D493075EF9BC95A /* WXRootViewController.h */,
-				AF42E272CEB145A368885A216B04BBA1 /* WXScrollerComponent.h */,
-				D6EEB4E43A9914B2D717AA2C546983B4 /* WXScrollerProtocol.h */,
-				764D20B8F68F22E14FD9FAC8D648B1B9 /* WXSDKEngine.h */,
-				9EFD1F78EECEFB3C0544C8811815C9CA /* WXSDKError.h */,
-				A3E9E92733935BDC865109F278700C0C /* WXSDKInstance.h */,
-				909356DE93D7211825122045FD12C126 /* WXSDKInstance+Bridge.h */,
-				307781D2AB00F2806C54F5C2D07B5FAE /* WXSDKInstance+DCExtend.h */,
-				97C37C6818AD53736E83FB427EE8EE3A /* WXSDKManager.h */,
-				F63096A5C8A9C7782944A3CE0BBC2C24 /* WXTracingManager.h */,
-				3297D59989307CBFB8CD59616ADAC3D9 /* WXTracingProtocol.h */,
-				0248DA9D758D198923E7F3FE332D1440 /* WXType.h */,
-				E232F2B9BD2C77277F8B1722D04DA857 /* WXURLRewriteProtocol.h */,
-				DD21FB8D1EE3C69E47C93C1D96FA40F7 /* WXUtility.h */,
-				9D037B1C2B054FB077F679EEAFC34A99 /* WXValidateProtocol.h */,
-				B0CFEDBED4A8AD437E85D161EE984E1D /* WXView.h */,
-				58CE760639B8F7EF625A482827866115 /* WXVoiceOverModule.h */,
-				4812FBD9378812D13B18B36B1ABF7E60 /* WXWebSocketHandler.h */,
+				A1CC3A55D03E274B38A7AF16570186AE /* flex_enum.h */,
+				7854DD060A9303E0433CF379697FBD24 /* JSContext+Weex.h */,
+				2324CC819196180F89F7F3C216DEA436 /* layout.h */,
+				B57E0780E1A59D80C344AF3F2FCC68B0 /* NSObject+WXSwizzle.h */,
+				FFA6FC99977C5A9DA253ADB5E2D2FFBB /* style.h */,
+				93A53BF8D9E6DEAFBF713A6B51710423 /* UniPluginProtocol.h */,
+				1FD37A40D05170F0E6F54B59D88ED3A5 /* WeexProtocol.h */,
+				CF53D2418314C1410F77BA14EFBA53F6 /* WeexSDK.h */,
+				67C5313578BAA13796E813B496A3329E /* WXAComponent.h */,
+				4B21374EDC4ED7876A3CC0D590A52ACD /* WXAnalyzerCenter.h */,
+				2808D0477AEAB3C4167C52AC066E9306 /* WXAnalyzerProtocol.h */,
+				92439F4A2E656B26805AD21BD7A528E7 /* WXApmForInstance.h */,
+				6406FB92628973AAA6E51F7A3DC5E3FE /* WXApmProtocol.h */,
+				5C570638EFD0F7CB1B8019AA752EC4EE /* WXAppConfiguration.h */,
+				AFF7BF6D34281114A0BE314BF8F0539D /* WXAppMonitorProtocol.h */,
+				2462F286D84C100A7A0D58163EF6DA72 /* WXBaseViewController.h */,
+				1FFF7A3809930A54976DF045A2C169F8 /* WXBridgeManager.h */,
+				7A6A29DB7DA0E3AD23940E10E05FD651 /* WXBridgeProtocol.h */,
+				41C9E65D98004B9F18DEB6FDA8119CB4 /* WXComponent.h */,
+				8B9916D4BEE26129307D33D9938187E4 /* WXComponent+Layout.h */,
+				88C9AD0AE4BC73703757D3749EEA234B /* WXComponentManager.h */,
+				969242D4AA9CE818239D2CEEAB8A6A95 /* WXConfigCenterProtocol.h */,
+				211A50D8C3100459686ECD613E90FB91 /* WXConvert.h */,
+				236F0D1BD124EDF648E2A1214154F195 /* WXDebugTool.h */,
+				BE6847298E02833E7821879E789F28FF /* WXDefine.h */,
+				8200E86B83B883BAF5D74C4E85F2D603 /* WXDisplayLinkManager.h */,
+				2E198E53C8276C7D0E52891CDDADEE1A /* WXErrorView.h */,
+				AF7983934323BC779D30A3D33F8146C9 /* WXEventModuleProtocol.h */,
+				6723479C868A30EDE517F479506CE68A /* WXExceptionUtils.h */,
+				48DA63594D09A3338594F578B9B53340 /* WXExtendCallNativeProtocol.h */,
+				F68BC0EA04836927579DFA18EB4AD621 /* WXImgLoaderProtocol.h */,
+				D039D07EE25DF90CF599A0AF7C4EBF6D /* WXIndicatorComponent.h */,
+				A6664C3842830CD7094146562B1C9BFD /* WXJSExceptionInfo.h */,
+				D4DB49CC8955FB857E5D70C0B05135D2 /* WXJSExceptionProtocol.h */,
+				D4A22801E03577B598B624BEB04A868D /* WXJSFrameworkLoadProtocol.h */,
+				2F4F9E5C0935432A068258EC89D5D886 /* WXListComponent.h */,
+				E64838F7D9E0638E84DC7F112A01916C /* WXModalUIModule.h */,
+				3137D43D1F4120F68C6D4A65B2788FCB /* WXModuleProtocol.h */,
+				CA7B2CB7D32EF08CB4A62360BC90A3B4 /* WXMonitor.h */,
+				6083052F8E8B0B835D26F57803379DEB /* WXNavigationProtocol.h */,
+				BFBDBA234D3448A8B0D4BDAA1A8B3EBE /* WXNetworkProtocol.h */,
+				026A433CE5117F1F42E0FF1D41092161 /* WXPageEventNotifyEvent.h */,
+				9ED2A502C43516FE0F35CE8A413D4CCE /* WXPrerenderManager.h */,
+				84F68E8A0EC83B74ADC5AAD4A1C1BC37 /* WXRecyclerComponent.h */,
+				87634A403A11757E6B1528E123B3C8FB /* WXResourceLoader.h */,
+				2129E66A8B91B78A02E8ADE59A3553FF /* WXResourceRequest.h */,
+				3D47C5BBD9BAE5D3099266E589478687 /* WXResourceRequestHandler.h */,
+				4C0BC022DE68013213F54F64E432879D /* WXResourceResponse.h */,
+				648C3CAF406B5A342971825027796D8E /* WXRichText.h */,
+				384C5EF9EF64AE9C71B7F370CB996481 /* WXRootView.h */,
+				6FFBBCD4419789216053F061DD11C005 /* WXRootViewController.h */,
+				05CAEFB9D50AA3987F33CAC2CFB611F6 /* WXScrollerComponent.h */,
+				B89D8D0623B80C2DB6BBDA3340B175C3 /* WXScrollerProtocol.h */,
+				7CD76BC3953FA15ABB1707CD6EBA5F70 /* WXSDKEngine.h */,
+				8BAB6FE5269212841D6F19D0047AAA57 /* WXSDKError.h */,
+				61C06250866B3728DE93DC8E97BBF340 /* WXSDKInstance.h */,
+				034936225DC5828B7C7776B7109BF0EC /* WXSDKInstance+Bridge.h */,
+				E8F79638AB70ED5F71045EA6D648BF62 /* WXSDKInstance+DCExtend.h */,
+				F4FD1D9D78D3F32A492F2A2B509D4EFC /* WXSDKManager.h */,
+				55AA5B0076EDC474EDD06C93933DB7DA /* WXTracingManager.h */,
+				85A0839366F8431B74CB6ED89E970647 /* WXTracingProtocol.h */,
+				AA2421755F8B7F0978851CA8740D9FFC /* WXType.h */,
+				7A0A53D901BBC367C14F6C10FD764B35 /* WXURLRewriteProtocol.h */,
+				D16E1408E94728914890DB9C4BAFDBFA /* WXUtility.h */,
+				55EADF28AE9EE7DEF5460F5166182AA9 /* WXValidateProtocol.h */,
+				9D256A061C7AB720F636383D38A66971 /* WXView.h */,
+				FCF46571C9FFEA65450C6433CF23C68A /* WXVoiceOverModule.h */,
+				C93CD542BDE03880EB17995D67B37DD0 /* WXWebSocketHandler.h */,
 			);
 			name = weexHeader;
-			path = weexHeader;
+			sourceTree = "<group>";
+		};
+		3776B936974B696EE6EC85B7819722F4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				08BAC0332AEFA88AD7D3A893B6C9CDE3 /* DCUniMP.h */,
+				DF53313A40BB93C64A955F94BD13D950 /* DCUniMPConfiguration.h */,
+				0A498514513B94713185E343230C4A93 /* DCUniMPError.h */,
+				18EF437A3D2A74E4A075B30E66EB2E83 /* DCUniMPInstance.h */,
+				BAAC126030872D8BA8723A66795E9F9D /* DCUniMPMenuActionSheetStyle.h */,
+				B79EE89607918713DCD09000D786FE06 /* DCUniMPSDKEngine.h */,
+				338B88CE464DB3DE93CD8344944568B8 /* weexHeader */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		3C0992FE4465BB42BB076BA05229001F /* EIMiniProgramSDK */ = {
+			isa = PBXGroup;
+			children = (
+				586541E0B8046E146F20AB1344A25359 /* Core */,
+				67603C7A984FE96EDEFEA747F5CC9FE3 /* Pod */,
+				E63130D78BC8EACD506E9F6514DD96F7 /* Support Files */,
+			);
+			name = EIMiniProgramSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -290,12 +302,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		586541E0B8046E146F20AB1344A25359 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFDEA1E2E129451AD99DE9AD532448 /* __uniappes6.js */,
+				BD6133FF77BD2FA440B4B2D64326A2A6 /* PandoraApi.bundle */,
+				3F526E79D9C38F187EB6CF0D0005CD6A /* uni-jsframework.js */,
+				FE62A820EC508705C08A5A1DBB83DCA8 /* uni-jsframework-vue3.js */,
+				7E03675E4FD03FDE1AF56D4C2E50B134 /* unincomponents.ttf */,
+				D854C9BA827EC149F74FE60FD0A430A1 /* weex-polyfill.js */,
+				F6A0AAD9F96E53B439FF7CC907912AD6 /* weexUniJs.js */,
+				3776B936974B696EE6EC85B7819722F4 /* Headers */,
+				6263FAC5B581DB25E98A0F1D58A0180A /* Libs */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6263FAC5B581DB25E98A0F1D58A0180A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				8CA79F38D60612F64CB4DCB4E1C14AAA /* Frameworks */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
 		63FC22AF5C98458A88A174DF837B5008 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F997574E54B07437F8EDD32823CC6A80 /* EIMiniProgramSDK */,
+				3C0992FE4465BB42BB076BA05229001F /* EIMiniProgramSDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		67603C7A984FE96EDEFEA747F5CC9FE3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C3505E34CCF99601DCD4C0CF17A70AEC /* EIMiniProgramSDK.podspec */,
+				1C92DEC8B5EA8DD3C74CA08A0E888D2A /* LICENSE */,
+				3845B060DDE1FB41A976E7A9900103D4 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		746A480256D2C170A6CD9AEF9B3F4A10 /* Products */ = {
@@ -307,40 +353,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3B771259F8CDABFCC1F435C974B661A /* Headers */ = {
+		8CA79F38D60612F64CB4DCB4E1C14AAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DF69D0442F9D3532170C8D7AD413EF0 /* storage.h */,
-				49EB7FD23ED9CDA27BB5C1A378756925 /* StorageManager.h */,
+				B32DCF62ACE9AD13D1C724FE357D46BC /* libcoreSupport.a */,
+				34410E493BB89918F334DD8D67DEE283 /* liblibIO.a */,
+				C425FE3FE095EB0272C48B21D9FAB529 /* liblibNativeObj.a */,
+				944481FE5D5A0470D28BD52D15D72EF3 /* liblibNativeUI.a */,
+				EE2F0882C94C063C2133CD12B5F44206 /* liblibNavigator.a */,
+				EB1D573A5E56AA1202C288C7A4306774 /* liblibPDRCore.a */,
+				199B428FB0A81198A5DBF2A686CBF984 /* liblibStorage.a */,
+				1AC1AB248171F1DD2C4ECA67002C3E88 /* liblibUI.a */,
+				8E735AC0AF79F56DFB7AF1BFAC23C39B /* liblibWeex.a */,
+				6BC1136F17A0415C855E55C9557FE772 /* libSDWebImage.a */,
+				FC48DEFFDB10ED3363B73778A9FD32CE /* storage.framework */,
 			);
-			name = Headers;
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		AD73618488AD2B36D39E43A71C4BCA15 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				ADE9A7D3DEF96A10512312F117C55FDB /* __uniappes6.js */,
-				4C4F28616EA576390973B6845CF23A57 /* PandoraApi.bundle */,
-				76CC50581E4386BCBA8E09EF3B880F19 /* uni-jsframework.js */,
-				7B48D913A498FF029DDE21667B9974CF /* uni-jsframework-vue3.js */,
-				4ED8931EABEE1E71B775271F0A53E8CE /* unincomponents.ttf */,
-				D89E740BE943311E9E1FF91EB221AAA6 /* weex-polyfill.js */,
-				85DDE81B45C144A79C14F6A71D05B932 /* weexUniJs.js */,
-				D7F9A483D8AD9624E0E38304C21A6DC3 /* Frameworks */,
-				F78A72E2955A3E354E4DFA4264B77350 /* Headers */,
-				B03EDA08458BE9CCE47D44071D34A75D /* Libs */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		B03EDA08458BE9CCE47D44071D34A75D /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				F4869D0486CBCD80BBDCCE914F8CA907 /* storage.framework */,
-			);
-			name = Libs;
-			path = EIMiniProgramSDK/Core/Libs;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -362,34 +390,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7F9A483D8AD9624E0E38304C21A6DC3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A970E07C6427BFADA36338F2D57201C6 /* libcoreSupport.a */,
-				CB55C03AB38014A5AB9ED012E6296A1A /* liblibIO.a */,
-				5BBB9F70ABB4EB0E3F05F17FEF301BAD /* liblibNativeObj.a */,
-				23BBF077D63AA9031827F60E0D86C654 /* liblibNativeUI.a */,
-				E6C04C3EDA9B6E0378561263A95D13F0 /* liblibNavigator.a */,
-				6582F20F39D630476338382FD44A8009 /* liblibPDRCore.a */,
-				223A6E380D4C106BA1D47150038B85A7 /* liblibStorage.a */,
-				4AF2586F7138AB31F69FD147BF29A72B /* liblibUI.a */,
-				64D18FB7E039285867D8884CCA59A0DC /* liblibWeex.a */,
-				936E14C912166C7022831A6E070C8600 /* libSDWebImage.a */,
-				81BD39D7811E1FCA9B95D20E0F30E9F8 /* storage.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DAEAF6DC2BECBD48C87BF1B57D7A905E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19BB38D49F79A867011BD516A304D0F5 /* EIMiniProgramSDK.debug.xcconfig */,
-				B313995EA323D2FBF6A9494A50571A80 /* EIMiniProgramSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EIMiniProgramSDK";
-			sourceTree = "<group>";
-		};
 		E0AE75E5C52526F0B654DA3821E0F662 /* Pods-EIMiniProgramSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,39 +407,14 @@
 			path = "Target Support Files/Pods-EIMiniProgramSDK_Example";
 			sourceTree = "<group>";
 		};
-		F4869D0486CBCD80BBDCCE914F8CA907 /* storage.framework */ = {
+		E63130D78BC8EACD506E9F6514DD96F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3B771259F8CDABFCC1F435C974B661A /* Headers */,
+				334DA3AE8892B6E7F9AE9DEF6DC7753D /* EIMiniProgramSDK.debug.xcconfig */,
+				0163D319C29517AABB687C833E362EBB /* EIMiniProgramSDK.release.xcconfig */,
 			);
-			name = storage.framework;
-			path = storage.framework;
-			sourceTree = "<group>";
-		};
-		F78A72E2955A3E354E4DFA4264B77350 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				65BCE0EF19879BDE83AD1C517ECB9C91 /* DCUniMP.h */,
-				9D1559F3696EB9402F2DA84AB58284F1 /* DCUniMPConfiguration.h */,
-				B46E32D79409CAB1739C3DF2E35EF0BA /* DCUniMPError.h */,
-				057AECF1109B35E7301BFC37677752BF /* DCUniMPInstance.h */,
-				C35DB0B5FC629D59FE86C64F310FFCD2 /* DCUniMPMenuActionSheetStyle.h */,
-				3C618C8D5E885A6E076DC2367F857558 /* DCUniMPSDKEngine.h */,
-				3B11A1F52B5FE79E8842BD4EE08A494B /* weexHeader */,
-			);
-			name = Headers;
-			path = EIMiniProgramSDK/Core/Headers;
-			sourceTree = "<group>";
-		};
-		F997574E54B07437F8EDD32823CC6A80 /* EIMiniProgramSDK */ = {
-			isa = PBXGroup;
-			children = (
-				AD73618488AD2B36D39E43A71C4BCA15 /* Core */,
-				3836FF1771D6A76CE4FD31C04F571798 /* Pod */,
-				DAEAF6DC2BECBD48C87BF1B57D7A905E /* Support Files */,
-			);
-			name = EIMiniProgramSDK;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EIMiniProgramSDK";
 			sourceTree = "<group>";
 		};
 		FFB63B8665A7006FE5951DEA35318254 /* Pods-EIMiniProgramSDK_Tests */ = {
@@ -492,7 +467,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B9FDA740041925E97FC8F9049A9BC3C6 /* PBXTargetDependency */,
+				062266EF1B8FB1CE53026852ACF5D218 /* PBXTargetDependency */,
 			);
 			name = "Pods-EIMiniProgramSDK_Example";
 			productName = Pods_EIMiniProgramSDK_Example;
@@ -511,7 +486,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				17CEB999ED06A5FC59273A95E352C1BE /* PBXTargetDependency */,
+				867782972687CCF5D4815278AF4F6514 /* PBXTargetDependency */,
 			);
 			name = "Pods-EIMiniProgramSDK_Tests";
 			productName = Pods_EIMiniProgramSDK_Tests;
@@ -584,17 +559,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17CEB999ED06A5FC59273A95E352C1BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EIMiniProgramSDK_Example";
-			target = 236CDB966C8FBBEFA7C8116D6FCDB5AA /* Pods-EIMiniProgramSDK_Example */;
-			targetProxy = 9D893EDD079B9AEBAF3EA99FFEC16398 /* PBXContainerItemProxy */;
-		};
-		B9FDA740041925E97FC8F9049A9BC3C6 /* PBXTargetDependency */ = {
+		062266EF1B8FB1CE53026852ACF5D218 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EIMiniProgramSDK;
 			target = D742DA5CC97EFCBD552BFE0B44889A9E /* EIMiniProgramSDK */;
-			targetProxy = 71F95BDD2CA942B37089593698D449FF /* PBXContainerItemProxy */;
+			targetProxy = F1979207EC3A764030FD094B0A1542D3 /* PBXContainerItemProxy */;
+		};
+		867782972687CCF5D4815278AF4F6514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EIMiniProgramSDK_Example";
+			target = 236CDB966C8FBBEFA7C8116D6FCDB5AA /* Pods-EIMiniProgramSDK_Example */;
+			targetProxy = 8541B3B7AC46DAF3F931E9072E3FC6AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -704,7 +679,7 @@
 		};
 		4B65B2EF207E41B1BDE99EF656E2B918 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19BB38D49F79A867011BD516A304D0F5 /* EIMiniProgramSDK.debug.xcconfig */;
+			baseConfigurationReference = 334DA3AE8892B6E7F9AE9DEF6DC7753D /* EIMiniProgramSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -821,7 +796,7 @@
 		};
 		8A7D3FCE43FAFECF485471FCD4CD6D51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B313995EA323D2FBF6A9494A50571A80 /* EIMiniProgramSDK.release.xcconfig */;
+			baseConfigurationReference = 0163D319C29517AABB687C833E362EBB /* EIMiniProgramSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

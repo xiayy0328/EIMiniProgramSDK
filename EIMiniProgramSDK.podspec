@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EIMiniProgramSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '基于UniApp的小程序SDK实现快速集成方式'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/xiayy0328/EIMiniProgramSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'oauth2' => 'xyy_ios@163.com' }
+  s.author           = { 'xiayy0328' => 'xyy_ios@163.com' }
   s.source           = { :git => 'https://github.com/xiayy0328/EIMiniProgramSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -43,9 +43,16 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |core|
     core.libraries =  ['c++', 'iconv']
-    core.source_files = 'EIMiniProgramSDK/Core/**/*.h'
-    core.vendored_libraries =  "EIMiniProgramSDK/Core/**/*.a"
-    core.vendored_frameworks = "EIMiniProgramSDK/Core/**/*.framework"
+    core.subspec "Headers" do |header|
+      header.source_files = "EIMiniProgramSDK/Core/Headers/*.h"
+      header.subspec "weexHeader" do |weexHeader|
+        weexHeader.source_files = "EIMiniProgramSDK/Core/Headers/weexHeader/*.h"
+      end
+    end
+    core.subspec "Libs" do |lib|
+      lib.vendored_library = "EIMiniProgramSDK/Core/Libs/*.a"
+      lib.vendored_frameworks = "EIMiniProgramSDK/Core/Libs/*.framework"
+    end
     core.resources = ['EIMiniProgramSDK/Core/Resources/PandoraApi.bundle', 'EIMiniProgramSDK/Core/Resources/*.js', 'EIMiniProgramSDK/Core/Resources/*.ttf']
     core.frameworks = "JavaScriptCore", "CoreMedia", "MediaPlayer", "AVFoundation", "AVKit", "GLKit", "OpenGLES", "CoreText", "QuartzCore", "CoreGraphics", "QuickLook", "CoreTelephony", "AssetsLibrary", "CoreLocation", "AddressBook"
   end

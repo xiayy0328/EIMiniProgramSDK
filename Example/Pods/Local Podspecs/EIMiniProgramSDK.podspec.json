@@ -33,9 +33,6 @@
         "c++",
         "iconv"
       ],
-      "source_files": "EIMiniProgramSDK/Core/**/*.h",
-      "vendored_libraries": "EIMiniProgramSDK/Core/**/*.a",
-      "vendored_frameworks": "EIMiniProgramSDK/Core/**/*.framework",
       "resources": [
         "EIMiniProgramSDK/Core/Resources/PandoraApi.bundle",
         "EIMiniProgramSDK/Core/Resources/*.js",
@@ -57,6 +54,23 @@
         "AssetsLibrary",
         "CoreLocation",
         "AddressBook"
+      ],
+      "subspecs": [
+        {
+          "name": "Headers",
+          "source_files": "EIMiniProgramSDK/Core/Headers/*.h",
+          "subspecs": [
+            {
+              "name": "weexHeader",
+              "source_files": "EIMiniProgramSDK/Core/Headers/weexHeader/*.h"
+            }
+          ]
+        },
+        {
+          "name": "Libs",
+          "vendored_libraries": "EIMiniProgramSDK/Core/Libs/*.a",
+          "vendored_frameworks": "EIMiniProgramSDK/Core/Libs/*.framework"
+        }
       ]
     }
   ],

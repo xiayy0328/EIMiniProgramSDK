@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'EIMiniProgramSDK_Example' do
+  pod 'EIMiniProgramSDK', :path => '../'
+
+  target 'EIMiniProgramSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

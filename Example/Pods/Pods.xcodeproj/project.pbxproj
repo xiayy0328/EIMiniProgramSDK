@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D742DA5CC97EFCBD552BFE0B44889A9E /* EIMiniProgramSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 38DC9DD191689579AC751786ABDBC85C /* Build configuration list for PBXAggregateTarget "EIMiniProgramSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = EIMiniProgramSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0532EB93B82DBABE86F16E62690C18B7 /* Pods-EIMiniProgramSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5538A9E0C3BC8CCBA15FCD8B76E14 /* Pods-EIMiniProgramSDK_Example-dummy.m */; };
+		0BDB5677AAA315EB03593B5C902FDB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		332DB2873E12C185FF9C56080F908988 /* Pods-EIMiniProgramSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB34678E3A7DF23D9972AA041862278 /* Pods-EIMiniProgramSDK_Tests-dummy.m */; };
+		3600C2B67B839C2E0F99432010AC365A /* Pods-EIMiniProgramSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F06B2C13ECA9D6F5B20A4A6F638E289B /* Pods-EIMiniProgramSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E50148C90AFCB34D86B801B35BBBA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		85A47500F974C367C313DB9589106342 /* Pods-EIMiniProgramSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5710BB4D61AEA41DFECD00342C6789B4 /* Pods-EIMiniProgramSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F95BDD2CA942B37089593698D449FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D742DA5CC97EFCBD552BFE0B44889A9E;
+			remoteInfo = EIMiniProgramSDK;
+		};
+		9D893EDD079B9AEBAF3EA99FFEC16398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 236CDB966C8FBBEFA7C8116D6FCDB5AA;
+			remoteInfo = "Pods-EIMiniProgramSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001778E10FA60E433394C31D49FAD031 /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		00F832095E9E3A92046A30665A245457 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		018B2864668425E45F2032DEE5775533 /* Pods-EIMiniProgramSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EIMiniProgramSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0248DA9D758D198923E7F3FE332D1440 /* WXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
+		057AECF1109B35E7301BFC37677752BF /* DCUniMPInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPInstance.h; sourceTree = "<group>"; };
+		061F9AD48E53D243F50F5B2F0B54D4D9 /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		0DB34678E3A7DF23D9972AA041862278 /* Pods-EIMiniProgramSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EIMiniProgramSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		19BB38D49F79A867011BD516A304D0F5 /* EIMiniProgramSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EIMiniProgramSDK.debug.xcconfig; sourceTree = "<group>"; };
+		19F82889EA96B3AECE43931A88981DB8 /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
+		1A39614695A641158403CCE089651973 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1C40FD99DCCCCBB2FCAD1CF7AF631B30 /* WeexProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexProtocol.h; sourceTree = "<group>"; };
+		1DF69D0442F9D3532170C8D7AD413EF0 /* storage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = storage.h; sourceTree = "<group>"; };
+		1EA127F348EA30BF7DA1A1A7686F43A4 /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		215D11D58F06F4585DFCFCF0913C67DB /* WXAComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
+		223A6E380D4C106BA1D47150038B85A7 /* liblibStorage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibStorage.a; path = EIMiniProgramSDK/Core/Libs/liblibStorage.a; sourceTree = "<group>"; };
+		23BBF077D63AA9031827F60E0D86C654 /* liblibNativeUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = EIMiniProgramSDK/Core/Libs/liblibNativeUI.a; sourceTree = "<group>"; };
+		24DBF4E5F12255DE105E53BBC9E828A9 /* WXBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		2B87DB88A04E87E2693F5425343BE05E /* Pods-EIMiniProgramSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EIMiniProgramSDK_Tests"; path = Pods_EIMiniProgramSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C13E4187A12A4CAB2FDE67B76E077D1 /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
+		2EB4244351E6465A4DD3D98E8EEB8DDA /* WXResourceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
+		307781D2AB00F2806C54F5C2D07B5FAE /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
+		3297D59989307CBFB8CD59616ADAC3D9 /* WXTracingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
+		369109C6D2220C467CC931AAFDFA6488 /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
+		387276E7507C1CCA93753F38FFA32BC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		39EAA1790AAFE2EA593D8C2B116E5874 /* style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
+		3C618C8D5E885A6E076DC2367F857558 /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPSDKEngine.h; sourceTree = "<group>"; };
+		3E1E757AC7F3CAEB67093BD324424DB5 /* WXExceptionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXExceptionUtils.h; sourceTree = "<group>"; };
+		44476AAD3A67F18D22DC3EB25476627A /* WXApmProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmProtocol.h; sourceTree = "<group>"; };
+		457F0AC3B25FD40E260CBFCBDF72231E /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDisplayLinkManager.h; sourceTree = "<group>"; };
+		4812FBD9378812D13B18B36B1ABF7E60 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
+		48B61BC3C62F1D96F7C8AE913028A44B /* WeexSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
+		49EB7FD23ED9CDA27BB5C1A378756925 /* StorageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
+		4AF2586F7138AB31F69FD147BF29A72B /* liblibUI.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibUI.a; path = EIMiniProgramSDK/Core/Libs/liblibUI.a; sourceTree = "<group>"; };
+		4C4F28616EA576390973B6845CF23A57 /* PandoraApi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PandoraApi.bundle; path = EIMiniProgramSDK/Core/Resources/PandoraApi.bundle; sourceTree = "<group>"; };
+		4ED8931EABEE1E71B775271F0A53E8CE /* unincomponents.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = unincomponents.ttf; path = EIMiniProgramSDK/Core/Resources/unincomponents.ttf; sourceTree = "<group>"; };
+		51013DCD7E36F53BEA7D46CDBBB81D95 /* WXListComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
+		530B85E27A2963088C56B4612E824E3A /* WXDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		5710BB4D61AEA41DFECD00342C6789B4 /* Pods-EIMiniProgramSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EIMiniProgramSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58CE760639B8F7EF625A482827866115 /* WXVoiceOverModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
+		59EFDC8D03154C650E0A1A246E27A57C /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		5BBB9F70ABB4EB0E3F05F17FEF301BAD /* liblibNativeObj.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = EIMiniProgramSDK/Core/Libs/liblibNativeObj.a; sourceTree = "<group>"; };
+		5E29DAB63AE82660D2EEA8DD8F9704A1 /* Pods-EIMiniProgramSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EIMiniProgramSDK_Example"; path = Pods_EIMiniProgramSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D2BAA6DA1CFA0BD2E724627CE5F970 /* WXErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
+		64D18FB7E039285867D8884CCA59A0DC /* liblibWeex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibWeex.a; path = EIMiniProgramSDK/Core/Libs/liblibWeex.a; sourceTree = "<group>"; };
+		6582F20F39D630476338382FD44A8009 /* liblibPDRCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = EIMiniProgramSDK/Core/Libs/liblibPDRCore.a; sourceTree = "<group>"; };
+		65BCE0EF19879BDE83AD1C517ECB9C91 /* DCUniMP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMP.h; sourceTree = "<group>"; };
+		6D93FD9C8334D6CA7A9BFE19A3F05C3D /* Pods-EIMiniProgramSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		6EB212ACE9E0D3E15D86EA002844F640 /* WXNavigationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
+		7294EE5E373186F8B51573641B33F7C4 /* WXModalUIModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7378DA286A9BAD842F6D7C62DCA73EDF /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerProtocol.h; sourceTree = "<group>"; };
+		764D20B8F68F22E14FD9FAC8D648B1B9 /* WXSDKEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
+		76CC50581E4386BCBA8E09EF3B880F19 /* uni-jsframework.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework.js"; path = "EIMiniProgramSDK/Core/Resources/uni-jsframework.js"; sourceTree = "<group>"; };
+		79C9DB6854D78A49139A85ADCB64E121 /* WXApmForInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApmForInstance.h; sourceTree = "<group>"; };
+		7A06F9F071E6AEE2E167124A4EB55BED /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
+		7B48D913A498FF029DDE21667B9974CF /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "uni-jsframework-vue3.js"; path = "EIMiniProgramSDK/Core/Resources/uni-jsframework-vue3.js"; sourceTree = "<group>"; };
+		7BB5538A9E0C3BC8CCBA15FCD8B76E14 /* Pods-EIMiniProgramSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EIMiniProgramSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		7CC4E2E3684A6157F16EA424C2EEABC0 /* Pods-EIMiniProgramSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EIMiniProgramSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		81BD39D7811E1FCA9B95D20E0F30E9F8 /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = EIMiniProgramSDK/Core/Libs/storage.framework; sourceTree = "<group>"; };
+		827912F36670AAEF505C2E622ED6521A /* WXIndicatorComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
+		83F93339BA59E4C083C306BF65207FAE /* WXNetworkProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
+		85DDE81B45C144A79C14F6A71D05B932 /* weexUniJs.js */ = {isa = PBXFileReference; includeInIndex = 1; name = weexUniJs.js; path = EIMiniProgramSDK/Core/Resources/weexUniJs.js; sourceTree = "<group>"; };
+		8D325D5B531B6D7129A305C933B140AF /* WXConvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
+		909356DE93D7211825122045FD12C126 /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
+		936E14C912166C7022831A6E070C8600 /* libSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = EIMiniProgramSDK/Core/Libs/libSDWebImage.a; sourceTree = "<group>"; };
+		95CEAD97BAB0AC9E86A8521BB8F9DC6B /* Pods-EIMiniProgramSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EIMiniProgramSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		9614C0CD96AB60B26899A04009A989CD /* WXComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		966C534CE4A898AEE1FC81A7EB937238 /* WXComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
+		97C37C6818AD53736E83FB427EE8EE3A /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
+		983B6AAAC795AE74AB44442991CE787C /* WXBridgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
+		9A80608B0D352E080E284D66BD34C394 /* flex_enum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = flex_enum.h; sourceTree = "<group>"; };
+		9AC1936E64470199E240D3905D080DFB /* WXRecyclerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
+		9BE71938F95C44BA9BC9358EB1474D9E /* layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = layout.h; sourceTree = "<group>"; };
+		9D037B1C2B054FB077F679EEAFC34A99 /* WXValidateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
+		9D1559F3696EB9402F2DA84AB58284F1 /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPConfiguration.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3906E77B12E5A1A0FD0C1B7EB6D74A /* Pods-EIMiniProgramSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EFD1F78EECEFB3C0544C8811815C9CA /* WXSDKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		A1A7E5D5E31EDE391E57C6CAC2C54174 /* Pods-EIMiniProgramSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EIMiniProgramSDK_Example.modulemap"; sourceTree = "<group>"; };
+		A2CD6383AF9A56B49A30A83BF9A21E2B /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerCenter.h; sourceTree = "<group>"; };
+		A3E9E92733935BDC865109F278700C0C /* WXSDKInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
+		A8CBB08458FBF03B5E7FA34A14C6B583 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		A970E07C6427BFADA36338F2D57201C6 /* libcoreSupport.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = EIMiniProgramSDK/Core/Libs/libcoreSupport.a; sourceTree = "<group>"; };
+		AA60841557889D08BC730908793FBC32 /* EIMiniProgramSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EIMiniProgramSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA7D306852CCDDCD1A4680B99A01034B /* WXPrerenderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
+		ADE9A7D3DEF96A10512312F117C55FDB /* __uniappes6.js */ = {isa = PBXFileReference; includeInIndex = 1; name = __uniappes6.js; path = EIMiniProgramSDK/Core/Resources/__uniappes6.js; sourceTree = "<group>"; };
+		AF42E272CEB145A368885A216B04BBA1 /* WXScrollerComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
+		B0CFEDBED4A8AD437E85D161EE984E1D /* WXView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
+		B2779CE1591133D1B23A0076E60B4EF4 /* UniPluginProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UniPluginProtocol.h; sourceTree = "<group>"; };
+		B313995EA323D2FBF6A9494A50571A80 /* EIMiniProgramSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EIMiniProgramSDK.release.xcconfig; sourceTree = "<group>"; };
+		B46E32D79409CAB1739C3DF2E35EF0BA /* DCUniMPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPError.h; sourceTree = "<group>"; };
+		BC64CDD358E2A6989812A294255DF129 /* WXDebugTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		BE0EC9692792E03CB007C89E8C5E73FB /* Pods-EIMiniProgramSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C35DB0B5FC629D59FE86C64F310FFCD2 /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
+		C5F76AB0DF79E404F36188C855CC5536 /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
+		C78D50EA81697148DDDA06CFD84FBF31 /* WXAppConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		CA4ADACE8354B375DC4A0365BA15869D /* Pods-EIMiniProgramSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EIMiniProgramSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB55C03AB38014A5AB9ED012E6296A1A /* liblibIO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibIO.a; path = EIMiniProgramSDK/Core/Libs/liblibIO.a; sourceTree = "<group>"; };
+		D169C26DF71F13C8B7CB8C0C55F311C5 /* WXResourceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
+		D4ADCCB193600BBBBB87CE01015A6A56 /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
+		D6EEB4E43A9914B2D717AA2C546983B4 /* WXScrollerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		D7D9ACBC337E43D0239C3337869104C5 /* Pods-EIMiniProgramSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D863D5802546A7F744CBFE0346886406 /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		D89E740BE943311E9E1FF91EB221AAA6 /* weex-polyfill.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "weex-polyfill.js"; path = "EIMiniProgramSDK/Core/Resources/weex-polyfill.js"; sourceTree = "<group>"; };
+		DD21FB8D1EE3C69E47C93C1D96FA40F7 /* WXUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		DF6A8EEFF3C3CADA88D52A7AB8A59FE3 /* Pods-EIMiniProgramSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E232F2B9BD2C77277F8B1722D04DA857 /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		E2EEF80E44725017F149DD6EB841F9BD /* WXComponent+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
+		E6C04C3EDA9B6E0378561263A95D13F0 /* liblibNavigator.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = EIMiniProgramSDK/Core/Libs/liblibNavigator.a; sourceTree = "<group>"; };
+		F06B2C13ECA9D6F5B20A4A6F638E289B /* Pods-EIMiniProgramSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EIMiniProgramSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		F19EC8A0FFD7F37F524CFA82A503AD63 /* WXBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
+		F2BEB6BF3235ACBEECCE11E7E11C39A7 /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		F5DDA8F180135F518D493075EF9BC95A /* WXRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
+		F63096A5C8A9C7782944A3CE0BBC2C24 /* WXTracingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
+		F99BB59F2D8CAD3EE5E7E01F175F26CA /* WXRichText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXRichText.h; sourceTree = "<group>"; };
+		FACF438FA4E96436FF8FE718332FB6B9 /* Pods-EIMiniProgramSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FCE541B014FF8F1CFF1C9A74BA1D06C8 /* JSContext+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSContext+Weex.h"; sourceTree = "<group>"; };
+		FD2C5FA5AA700ED3CEB22C152DB5AD1B /* WXModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		FE98D25FB608FF97ED3D2A94832024F9 /* Pods-EIMiniProgramSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EIMiniProgramSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFBC0BE3A15E90571E913B1655A345F7 /* Pods-EIMiniProgramSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EIMiniProgramSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388472B31F4C5F73ADF51DDC0C8E5BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E50148C90AFCB34D86B801B35BBBA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1C5D04BCCE134365C6C6478A8A6DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDB5677AAA315EB03593B5C902FDB8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E10F68F4EED7E4DB4EB9293A878E68F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0AE75E5C52526F0B654DA3821E0F662 /* Pods-EIMiniProgramSDK_Example */,
+				FFB63B8665A7006FE5951DEA35318254 /* Pods-EIMiniProgramSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3836FF1771D6A76CE4FD31C04F571798 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA60841557889D08BC730908793FBC32 /* EIMiniProgramSDK.podspec */,
+				387276E7507C1CCA93753F38FFA32BC2 /* LICENSE */,
+				1A39614695A641158403CCE089651973 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3B11A1F52B5FE79E8842BD4EE08A494B /* weexHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9A80608B0D352E080E284D66BD34C394 /* flex_enum.h */,
+				FCE541B014FF8F1CFF1C9A74BA1D06C8 /* JSContext+Weex.h */,
+				9BE71938F95C44BA9BC9358EB1474D9E /* layout.h */,
+				001778E10FA60E433394C31D49FAD031 /* NSObject+WXSwizzle.h */,
+				39EAA1790AAFE2EA593D8C2B116E5874 /* style.h */,
+				B2779CE1591133D1B23A0076E60B4EF4 /* UniPluginProtocol.h */,
+				1C40FD99DCCCCBB2FCAD1CF7AF631B30 /* WeexProtocol.h */,
+				48B61BC3C62F1D96F7C8AE913028A44B /* WeexSDK.h */,
+				215D11D58F06F4585DFCFCF0913C67DB /* WXAComponent.h */,
+				A2CD6383AF9A56B49A30A83BF9A21E2B /* WXAnalyzerCenter.h */,
+				7378DA286A9BAD842F6D7C62DCA73EDF /* WXAnalyzerProtocol.h */,
+				79C9DB6854D78A49139A85ADCB64E121 /* WXApmForInstance.h */,
+				44476AAD3A67F18D22DC3EB25476627A /* WXApmProtocol.h */,
+				C78D50EA81697148DDDA06CFD84FBF31 /* WXAppConfiguration.h */,
+				F2BEB6BF3235ACBEECCE11E7E11C39A7 /* WXAppMonitorProtocol.h */,
+				24DBF4E5F12255DE105E53BBC9E828A9 /* WXBaseViewController.h */,
+				F19EC8A0FFD7F37F524CFA82A503AD63 /* WXBridgeManager.h */,
+				983B6AAAC795AE74AB44442991CE787C /* WXBridgeProtocol.h */,
+				9614C0CD96AB60B26899A04009A989CD /* WXComponent.h */,
+				E2EEF80E44725017F149DD6EB841F9BD /* WXComponent+Layout.h */,
+				966C534CE4A898AEE1FC81A7EB937238 /* WXComponentManager.h */,
+				1EA127F348EA30BF7DA1A1A7686F43A4 /* WXConfigCenterProtocol.h */,
+				8D325D5B531B6D7129A305C933B140AF /* WXConvert.h */,
+				BC64CDD358E2A6989812A294255DF129 /* WXDebugTool.h */,
+				530B85E27A2963088C56B4612E824E3A /* WXDefine.h */,
+				457F0AC3B25FD40E260CBFCBDF72231E /* WXDisplayLinkManager.h */,
+				63D2BAA6DA1CFA0BD2E724627CE5F970 /* WXErrorView.h */,
+				A8CBB08458FBF03B5E7FA34A14C6B583 /* WXEventModuleProtocol.h */,
+				3E1E757AC7F3CAEB67093BD324424DB5 /* WXExceptionUtils.h */,
+				061F9AD48E53D243F50F5B2F0B54D4D9 /* WXExtendCallNativeProtocol.h */,
+				00F832095E9E3A92046A30665A245457 /* WXImgLoaderProtocol.h */,
+				827912F36670AAEF505C2E622ED6521A /* WXIndicatorComponent.h */,
+				D863D5802546A7F744CBFE0346886406 /* WXJSExceptionInfo.h */,
+				369109C6D2220C467CC931AAFDFA6488 /* WXJSExceptionProtocol.h */,
+				C5F76AB0DF79E404F36188C855CC5536 /* WXJSFrameworkLoadProtocol.h */,
+				51013DCD7E36F53BEA7D46CDBBB81D95 /* WXListComponent.h */,
+				7294EE5E373186F8B51573641B33F7C4 /* WXModalUIModule.h */,
+				FD2C5FA5AA700ED3CEB22C152DB5AD1B /* WXModuleProtocol.h */,
+				7A06F9F071E6AEE2E167124A4EB55BED /* WXMonitor.h */,
+				6EB212ACE9E0D3E15D86EA002844F640 /* WXNavigationProtocol.h */,
+				83F93339BA59E4C083C306BF65207FAE /* WXNetworkProtocol.h */,
+				D4ADCCB193600BBBBB87CE01015A6A56 /* WXPageEventNotifyEvent.h */,
+				AA7D306852CCDDCD1A4680B99A01034B /* WXPrerenderManager.h */,
+				9AC1936E64470199E240D3905D080DFB /* WXRecyclerComponent.h */,
+				19F82889EA96B3AECE43931A88981DB8 /* WXResourceLoader.h */,
+				2EB4244351E6465A4DD3D98E8EEB8DDA /* WXResourceRequest.h */,
+				59EFDC8D03154C650E0A1A246E27A57C /* WXResourceRequestHandler.h */,
+				D169C26DF71F13C8B7CB8C0C55F311C5 /* WXResourceResponse.h */,
+				F99BB59F2D8CAD3EE5E7E01F175F26CA /* WXRichText.h */,
+				2C13E4187A12A4CAB2FDE67B76E077D1 /* WXRootView.h */,
+				F5DDA8F180135F518D493075EF9BC95A /* WXRootViewController.h */,
+				AF42E272CEB145A368885A216B04BBA1 /* WXScrollerComponent.h */,
+				D6EEB4E43A9914B2D717AA2C546983B4 /* WXScrollerProtocol.h */,
+				764D20B8F68F22E14FD9FAC8D648B1B9 /* WXSDKEngine.h */,
+				9EFD1F78EECEFB3C0544C8811815C9CA /* WXSDKError.h */,
+				A3E9E92733935BDC865109F278700C0C /* WXSDKInstance.h */,
+				909356DE93D7211825122045FD12C126 /* WXSDKInstance+Bridge.h */,
+				307781D2AB00F2806C54F5C2D07B5FAE /* WXSDKInstance+DCExtend.h */,
+				97C37C6818AD53736E83FB427EE8EE3A /* WXSDKManager.h */,
+				F63096A5C8A9C7782944A3CE0BBC2C24 /* WXTracingManager.h */,
+				3297D59989307CBFB8CD59616ADAC3D9 /* WXTracingProtocol.h */,
+				0248DA9D758D198923E7F3FE332D1440 /* WXType.h */,
+				E232F2B9BD2C77277F8B1722D04DA857 /* WXURLRewriteProtocol.h */,
+				DD21FB8D1EE3C69E47C93C1D96FA40F7 /* WXUtility.h */,
+				9D037B1C2B054FB077F679EEAFC34A99 /* WXValidateProtocol.h */,
+				B0CFEDBED4A8AD437E85D161EE984E1D /* WXView.h */,
+				58CE760639B8F7EF625A482827866115 /* WXVoiceOverModule.h */,
+				4812FBD9378812D13B18B36B1ABF7E60 /* WXWebSocketHandler.h */,
+			);
+			name = weexHeader;
+			path = weexHeader;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63FC22AF5C98458A88A174DF837B5008 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F997574E54B07437F8EDD32823CC6A80 /* EIMiniProgramSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		746A480256D2C170A6CD9AEF9B3F4A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E29DAB63AE82660D2EEA8DD8F9704A1 /* Pods-EIMiniProgramSDK_Example */,
+				2B87DB88A04E87E2693F5425343BE05E /* Pods-EIMiniProgramSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B771259F8CDABFCC1F435C974B661A /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1DF69D0442F9D3532170C8D7AD413EF0 /* storage.h */,
+				49EB7FD23ED9CDA27BB5C1A378756925 /* StorageManager.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		AD73618488AD2B36D39E43A71C4BCA15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ADE9A7D3DEF96A10512312F117C55FDB /* __uniappes6.js */,
+				4C4F28616EA576390973B6845CF23A57 /* PandoraApi.bundle */,
+				76CC50581E4386BCBA8E09EF3B880F19 /* uni-jsframework.js */,
+				7B48D913A498FF029DDE21667B9974CF /* uni-jsframework-vue3.js */,
+				4ED8931EABEE1E71B775271F0A53E8CE /* unincomponents.ttf */,
+				D89E740BE943311E9E1FF91EB221AAA6 /* weex-polyfill.js */,
+				85DDE81B45C144A79C14F6A71D05B932 /* weexUniJs.js */,
+				D7F9A483D8AD9624E0E38304C21A6DC3 /* Frameworks */,
+				F78A72E2955A3E354E4DFA4264B77350 /* Headers */,
+				B03EDA08458BE9CCE47D44071D34A75D /* Libs */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B03EDA08458BE9CCE47D44071D34A75D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F4869D0486CBCD80BBDCCE914F8CA907 /* storage.framework */,
+			);
+			name = Libs;
+			path = EIMiniProgramSDK/Core/Libs;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				63FC22AF5C98458A88A174DF837B5008 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				746A480256D2C170A6CD9AEF9B3F4A10 /* Products */,
+				0E10F68F4EED7E4DB4EB9293A878E68F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F9A483D8AD9624E0E38304C21A6DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A970E07C6427BFADA36338F2D57201C6 /* libcoreSupport.a */,
+				CB55C03AB38014A5AB9ED012E6296A1A /* liblibIO.a */,
+				5BBB9F70ABB4EB0E3F05F17FEF301BAD /* liblibNativeObj.a */,
+				23BBF077D63AA9031827F60E0D86C654 /* liblibNativeUI.a */,
+				E6C04C3EDA9B6E0378561263A95D13F0 /* liblibNavigator.a */,
+				6582F20F39D630476338382FD44A8009 /* liblibPDRCore.a */,
+				223A6E380D4C106BA1D47150038B85A7 /* liblibStorage.a */,
+				4AF2586F7138AB31F69FD147BF29A72B /* liblibUI.a */,
+				64D18FB7E039285867D8884CCA59A0DC /* liblibWeex.a */,
+				936E14C912166C7022831A6E070C8600 /* libSDWebImage.a */,
+				81BD39D7811E1FCA9B95D20E0F30E9F8 /* storage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEAF6DC2BECBD48C87BF1B57D7A905E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19BB38D49F79A867011BD516A304D0F5 /* EIMiniProgramSDK.debug.xcconfig */,
+				B313995EA323D2FBF6A9494A50571A80 /* EIMiniProgramSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EIMiniProgramSDK";
+			sourceTree = "<group>";
+		};
+		E0AE75E5C52526F0B654DA3821E0F662 /* Pods-EIMiniProgramSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A1A7E5D5E31EDE391E57C6CAC2C54174 /* Pods-EIMiniProgramSDK_Example.modulemap */,
+				018B2864668425E45F2032DEE5775533 /* Pods-EIMiniProgramSDK_Example-acknowledgements.markdown */,
+				9E3906E77B12E5A1A0FD0C1B7EB6D74A /* Pods-EIMiniProgramSDK_Example-acknowledgements.plist */,
+				7BB5538A9E0C3BC8CCBA15FCD8B76E14 /* Pods-EIMiniProgramSDK_Example-dummy.m */,
+				6D93FD9C8334D6CA7A9BFE19A3F05C3D /* Pods-EIMiniProgramSDK_Example-Info.plist */,
+				95CEAD97BAB0AC9E86A8521BB8F9DC6B /* Pods-EIMiniProgramSDK_Example-resources.sh */,
+				F06B2C13ECA9D6F5B20A4A6F638E289B /* Pods-EIMiniProgramSDK_Example-umbrella.h */,
+				FFBC0BE3A15E90571E913B1655A345F7 /* Pods-EIMiniProgramSDK_Example.debug.xcconfig */,
+				FACF438FA4E96436FF8FE718332FB6B9 /* Pods-EIMiniProgramSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-EIMiniProgramSDK_Example";
+			path = "Target Support Files/Pods-EIMiniProgramSDK_Example";
+			sourceTree = "<group>";
+		};
+		F4869D0486CBCD80BBDCCE914F8CA907 /* storage.framework */ = {
+			isa = PBXGroup;
+			children = (
+				A3B771259F8CDABFCC1F435C974B661A /* Headers */,
+			);
+			name = storage.framework;
+			path = storage.framework;
+			sourceTree = "<group>";
+		};
+		F78A72E2955A3E354E4DFA4264B77350 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				65BCE0EF19879BDE83AD1C517ECB9C91 /* DCUniMP.h */,
+				9D1559F3696EB9402F2DA84AB58284F1 /* DCUniMPConfiguration.h */,
+				B46E32D79409CAB1739C3DF2E35EF0BA /* DCUniMPError.h */,
+				057AECF1109B35E7301BFC37677752BF /* DCUniMPInstance.h */,
+				C35DB0B5FC629D59FE86C64F310FFCD2 /* DCUniMPMenuActionSheetStyle.h */,
+				3C618C8D5E885A6E076DC2367F857558 /* DCUniMPSDKEngine.h */,
+				3B11A1F52B5FE79E8842BD4EE08A494B /* weexHeader */,
+			);
+			name = Headers;
+			path = EIMiniProgramSDK/Core/Headers;
+			sourceTree = "<group>";
+		};
+		F997574E54B07437F8EDD32823CC6A80 /* EIMiniProgramSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AD73618488AD2B36D39E43A71C4BCA15 /* Core */,
+				3836FF1771D6A76CE4FD31C04F571798 /* Pod */,
+				DAEAF6DC2BECBD48C87BF1B57D7A905E /* Support Files */,
+			);
+			name = EIMiniProgramSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FFB63B8665A7006FE5951DEA35318254 /* Pods-EIMiniProgramSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC4E2E3684A6157F16EA424C2EEABC0 /* Pods-EIMiniProgramSDK_Tests.modulemap */,
+				FE98D25FB608FF97ED3D2A94832024F9 /* Pods-EIMiniProgramSDK_Tests-acknowledgements.markdown */,
+				BE0EC9692792E03CB007C89E8C5E73FB /* Pods-EIMiniProgramSDK_Tests-acknowledgements.plist */,
+				0DB34678E3A7DF23D9972AA041862278 /* Pods-EIMiniProgramSDK_Tests-dummy.m */,
+				CA4ADACE8354B375DC4A0365BA15869D /* Pods-EIMiniProgramSDK_Tests-Info.plist */,
+				5710BB4D61AEA41DFECD00342C6789B4 /* Pods-EIMiniProgramSDK_Tests-umbrella.h */,
+				D7D9ACBC337E43D0239C3337869104C5 /* Pods-EIMiniProgramSDK_Tests.debug.xcconfig */,
+				DF6A8EEFF3C3CADA88D52A7AB8A59FE3 /* Pods-EIMiniProgramSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-EIMiniProgramSDK_Tests";
+			path = "Target Support Files/Pods-EIMiniProgramSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BB2E17B863BFCBB1EEEB96B5B83706A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A47500F974C367C313DB9589106342 /* Pods-EIMiniProgramSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA44D206CC0F208B8ACB41C040DA7A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3600C2B67B839C2E0F99432010AC365A /* Pods-EIMiniProgramSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		236CDB966C8FBBEFA7C8116D6FCDB5AA /* Pods-EIMiniProgramSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2498A7B401CF9DB30D1C419C4680933E /* Build configuration list for PBXNativeTarget "Pods-EIMiniProgramSDK_Example" */;
+			buildPhases = (
+				ADA44D206CC0F208B8ACB41C040DA7A6 /* Headers */,
+				68B315D535BF9FA4CA4EC6E2F545F2C3 /* Sources */,
+				388472B31F4C5F73ADF51DDC0C8E5BF2 /* Frameworks */,
+				F74D2C55C409C53D12CE50CC62C98BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FDA740041925E97FC8F9049A9BC3C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-EIMiniProgramSDK_Example";
+			productName = Pods_EIMiniProgramSDK_Example;
+			productReference = 5E29DAB63AE82660D2EEA8DD8F9704A1 /* Pods-EIMiniProgramSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDFBC82C72AE80769C68EFC4A6A19C6A /* Pods-EIMiniProgramSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2945C543110D481B44D1BB0560D8A6 /* Build configuration list for PBXNativeTarget "Pods-EIMiniProgramSDK_Tests" */;
+			buildPhases = (
+				2BB2E17B863BFCBB1EEEB96B5B83706A /* Headers */,
+				D5346C17DE243B070C36E6AFE1CCD5EB /* Sources */,
+				DC1C5D04BCCE134365C6C6478A8A6DB6 /* Frameworks */,
+				1582E71C5C48026C16C95471E8A1D671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CEB999ED06A5FC59273A95E352C1BE /* PBXTargetDependency */,
+			);
+			name = "Pods-EIMiniProgramSDK_Tests";
+			productName = Pods_EIMiniProgramSDK_Tests;
+			productReference = 2B87DB88A04E87E2693F5425343BE05E /* Pods-EIMiniProgramSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 746A480256D2C170A6CD9AEF9B3F4A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D742DA5CC97EFCBD552BFE0B44889A9E /* EIMiniProgramSDK */,
+				236CDB966C8FBBEFA7C8116D6FCDB5AA /* Pods-EIMiniProgramSDK_Example */,
+				FDFBC82C72AE80769C68EFC4A6A19C6A /* Pods-EIMiniProgramSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1582E71C5C48026C16C95471E8A1D671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74D2C55C409C53D12CE50CC62C98BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B315D535BF9FA4CA4EC6E2F545F2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532EB93B82DBABE86F16E62690C18B7 /* Pods-EIMiniProgramSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5346C17DE243B070C36E6AFE1CCD5EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332DB2873E12C185FF9C56080F908988 /* Pods-EIMiniProgramSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17CEB999ED06A5FC59273A95E352C1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EIMiniProgramSDK_Example";
+			target = 236CDB966C8FBBEFA7C8116D6FCDB5AA /* Pods-EIMiniProgramSDK_Example */;
+			targetProxy = 9D893EDD079B9AEBAF3EA99FFEC16398 /* PBXContainerItemProxy */;
+		};
+		B9FDA740041925E97FC8F9049A9BC3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EIMiniProgramSDK;
+			target = D742DA5CC97EFCBD552BFE0B44889A9E /* EIMiniProgramSDK */;
+			targetProxy = 71F95BDD2CA942B37089593698D449FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A4202AF268DA5750038C2E20965757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D9ACBC337E43D0239C3337869104C5 /* Pods-EIMiniProgramSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Tests/Pods-EIMiniProgramSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Tests/Pods-EIMiniProgramSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B65B2EF207E41B1BDE99EF656E2B918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BB38D49F79A867011BD516A304D0F5 /* EIMiniProgramSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6EED23584F12A8159E4150D0366C0BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACF438FA4E96436FF8FE718332FB6B9 /* Pods-EIMiniProgramSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Example/Pods-EIMiniProgramSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Example/Pods-EIMiniProgramSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A7D3FCE43FAFECF485471FCD4CD6D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B313995EA323D2FBF6A9494A50571A80 /* EIMiniProgramSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2396B3BBAE16C3D12E515DA6D895D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF6A8EEFF3C3CADA88D52A7AB8A59FE3 /* Pods-EIMiniProgramSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Tests/Pods-EIMiniProgramSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Tests/Pods-EIMiniProgramSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB58F4D0189880D56441F6186EB21AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFBC0BE3A15E90571E913B1655A345F7 /* Pods-EIMiniProgramSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Example/Pods-EIMiniProgramSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EIMiniProgramSDK_Example/Pods-EIMiniProgramSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2498A7B401CF9DB30D1C419C4680933E /* Build configuration list for PBXNativeTarget "Pods-EIMiniProgramSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB58F4D0189880D56441F6186EB21AF0 /* Debug */,
+				6EED23584F12A8159E4150D0366C0BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DC9DD191689579AC751786ABDBC85C /* Build configuration list for PBXAggregateTarget "EIMiniProgramSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B65B2EF207E41B1BDE99EF656E2B918 /* Debug */,
+				8A7D3FCE43FAFECF485471FCD4CD6D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2945C543110D481B44D1BB0560D8A6 /* Build configuration list for PBXNativeTarget "Pods-EIMiniProgramSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A4202AF268DA5750038C2E20965757 /* Debug */,
+				D2396B3BBAE16C3D12E515DA6D895D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

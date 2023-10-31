@@ -1,0 +1,6 @@
+framework module EIMiniProgramSDK {
+  umbrella header "EIMiniProgramSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

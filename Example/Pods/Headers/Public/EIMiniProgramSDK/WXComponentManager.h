@@ -1,0 +1,1 @@
+../../../../../EIMiniProgramSDK/Core/Headers/weexHeader/WXComponentManager.h

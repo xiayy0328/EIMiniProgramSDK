@@ -1,0 +1,18 @@
+PODS:
+  - EIMiniProgramSDK (1.0.0):
+    - EIMiniProgramSDK/Core (= 1.0.0)
+  - EIMiniProgramSDK/Core (1.0.0)
+
+DEPENDENCIES:
+  - EIMiniProgramSDK (from `../`)
+
+EXTERNAL SOURCES:
+  EIMiniProgramSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EIMiniProgramSDK: 8f3890ff1f9a7931affec3f347068d8fb331468d
+
+PODFILE CHECKSUM: 34d73e8e90bb31e5f6fef7873531a68e1618e12e
+
+COCOAPODS: 1.14.2

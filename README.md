@@ -22,7 +22,7 @@ pod 'EIMiniProgramSDK'
 
 ## Author
 
-oauth2, xiayy3@sany.com.cn
+xyy0328, xyy_ios@163.com
 
 ## License
 

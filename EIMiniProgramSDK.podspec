@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EIMiniProgramSDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '基于UniApp的小程序SDK实现快速集成方式'
 
 # This description is used to generate tags and improve search results.
